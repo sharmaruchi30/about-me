@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+ .main{
+    height: 100vh;
+    width: 100vw;
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .jerry{
+        img{
+            height: 20vh;
+            width: 20vh;
+            object-fit: cover;
+            border-radius: 50%;
+            
+        }
+    }
+
+    .intro{
+        padding-top: 40px;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .proffession{
+        padding-top: 20px;
+        font-weight: 500;
+        font-size: 25px;
+    }
+
+    .aboutme{
+        padding-top: 20px;
+        width: 50vw;
+        text-align: center;
+        font-size: 18px;
+    }
+
+}
